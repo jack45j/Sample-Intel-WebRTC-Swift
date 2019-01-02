@@ -12,6 +12,7 @@
 		9335188A21DCAC5000F9BBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9335188821DCAC5000F9BBCD /* Main.storyboard */; };
 		9335188C21DCAC5100F9BBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9335188B21DCAC5100F9BBCD /* Assets.xcassets */; };
 		9335188F21DCAC5100F9BBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9335188D21DCAC5100F9BBCD /* LaunchScreen.storyboard */; };
+		9335189721DCAE0B00F9BBCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335189621DCAE0B00F9BBCD /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9335188B21DCAC5100F9BBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9335188E21DCAC5100F9BBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9335189021DCAC5100F9BBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9335189621DCAE0B00F9BBCD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				9335188421DCAC5000F9BBCD /* AppDelegate.swift */,
-				9335188621DCAC5000F9BBCD /* ViewController.swift */,
-				9335188821DCAC5000F9BBCD /* Main.storyboard */,
 				9335188B21DCAC5100F9BBCD /* Assets.xcassets */,
-				9335188D21DCAC5100F9BBCD /* LaunchScreen.storyboard */,
 				9335189021DCAC5100F9BBCD /* Info.plist */,
+				9335188D21DCAC5100F9BBCD /* LaunchScreen.storyboard */,
+				9335188821DCAC5000F9BBCD /* Main.storyboard */,
+				9335189621DCAE0B00F9BBCD /* MainViewController.swift */,
+				9335188621DCAC5000F9BBCD /* ViewController.swift */,
 			);
 			path = "Intel WebRTC Swift Sample";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9335189721DCAE0B00F9BBCD /* MainViewController.swift in Sources */,
 				9335188721DCAC5000F9BBCD /* ViewController.swift in Sources */,
 				9335188521DCAC5000F9BBCD /* AppDelegate.swift in Sources */,
 			);
